@@ -1,0 +1,131 @@
+/* *prototype* */
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #eee;
+    position: relative;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+/* *Global Class* */
+
+/* *Topbar* */
+.topbar{
+    padding: 5px 0px;
+    background: rgb(219,95,61);
+    background: linear-gradient(165deg, rgba(219,95,61,1) 0%, rgba(241,165,51,1) 34%, rgba(248,228,112,1) 70%, rgba(249,189,105,1) 96%);
+}
+.time{
+    font-weight: 600;
+    color: #000;
+}
+.social-media{
+    text-align: end;
+}
+.social-media ul{  
+    margin: 0;
+}
+.social-media i{
+    color: #000;
+    padding: 0px 6px;
+    transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+}
+.social-media i:hover{
+    color: #8318ee;
+    font-size:larger;
+}
+.phone{
+    font-weight: 600;
+    color: #000;
+    padding-right: 15px;
+}
+.phone:hover{
+    color: #000
+}
+.phone-rot{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+
+/* *Navbar* */
+.nav-bg-color{
+    background: #fceabb;
+    background: -webkit-linear-gradient(to right, #e2aa10, #fceabb);  
+    background: linear-gradient(to right, #e7ac09, #fceabb);
+    padding: 10px;
+}
+.navbar-brand{
+    font-size: 20px;
+    color: #333;
+    font-weight: 900;
+}
+.navbar-nav .nav-link{
+    font-weight: 500;
+    color: black;
+}
+.dropdown-menu {
+     padding: 0; 
+}
+.dropdowntop{
+    top: 113%;
+}
+.dropdowntop a:hover{
+    background: rgb(223,91,64);
+    background: linear-gradient(150deg, rgba(223,91,64,1) 0%, rgba(255,175,63,1) 47%, rgba(240,232,172,1) 92%);
+}
+.search-box {
+    border-radius: 20px;
+}
+.search-display{
+    display: none;
+}
+.after-scroll{
+    background: rgb(219,95,61);
+    background: linear-gradient(165deg, rgba(219,95,61,1) 0%, rgba(241,165,51,1) 34%, rgba(248,228,112,1) 70%, rgba(249,189,105,1) 96%);
+    padding: 10px;
+    box-shadow: 0px 2px 0.3px rgba(95, 56, 56, 0.3);
+}
+
+.after-scroll .navbar-nav li a{
+    color: #fff;
+}
+
+.after-scroll .navbar-nav li a:hover{
+    border-bottom: 2px solid #666;
+}
+
+/* .fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  } */
+
+  /* .sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  } */
+  .fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+/* *OwlCarousel Slider* */
+
