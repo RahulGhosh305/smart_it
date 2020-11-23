@@ -50,7 +50,7 @@ $(document).ready(function(){
 });
 
 
-// isotope build plugin code start
+//* isotope build plugin code start########################################################
 
 //* document ready
 $("document").ready(function () {
@@ -66,5 +66,67 @@ $("document").ready(function () {
         });
     });
 });
-// isotope code end
 
+
+
+// * CounterUp Code ########################################################
+$(document).ready(function(){
+    $('.counter').counterUp({
+        delay: 10,
+        time: 4000
+    });
+});
+
+
+//* Owl-carousel Slider Team Code  ########################################################
+$('#team-slider').owlCarousel({
+    autoplay:true,
+    autoplayHoverPause: true,
+    autoplayTimeout: 1000,
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+
+//* ProgressBar Custome Code ########################################################
+$(document).ready(function($){
+    $(function(){
+        $('.circlechart').circlechart();
+      });
+  })
+
+
+//* Owl-carousel Slider testimonial Code ###################################################
+$('#testimonial-carousel').owlCarousel({
+    autoplay:true,
+    autoplayHoverPause: true,
+    autoplayTimeout: 3000,
+    loop:true,
+    margin:10,
+    nav:false,
+    // navtext :['<i class="fa fa-angel-left"></i>','<i class="fa fa-angel-right"></i>'],
+    dots: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:2
+        }
+    }
+})
