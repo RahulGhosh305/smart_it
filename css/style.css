@@ -734,9 +734,10 @@ section {
 }
 
 .about-subtitle{
+    background: linear-gradient(165deg, rgba(219, 95, 61, 1) 0%, rgba(241, 165, 51, 1) 34%, rgba(248, 228, 112, 1) 70%, rgba(249, 189, 105, 1) 96%);
     font-size: 18px;
     text-transform: capitalize;
-    color: #666;
+    color: #000;
     font-weight: 300;
     padding: 10px;
     letter-spacing: 1.4;
@@ -1024,13 +1025,34 @@ section {
     
 }
 
-  /** Mapping part**/
-.map-wrapper .iframe{
-    margin-top: 70px;
-}
 
 /** Brand Part **/
+.brand-header{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
 
+.brand-header h2{
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #222;
+    text-shadow: 2px 2px #f1b329;
+}
+.brand-mar{
+    margin-bottom: 20px;
+}
+.brand-img{
+    max-height: 100px !important;
+    padding: 10px;
+    text-align: center;
+}
+
+  /** Mapping part**/
+  .map-wrapper .iframe{
+    margin-top: 70px;
+}
 
 /** Footer Start **/
 footer {
